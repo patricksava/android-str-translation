@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf8'?>
+<resources>
+  <string name="title_activity_home">f</string>
+<string name="title_activity_login">b</string>
+<string name="hello_world">d</string>
+<string name="title_activity_comments">h</string>
+<string name="action_settings">c</string>
+<string name="title_activity_lesson">g</string>
+<string name="title_activity_course_info">i</string>
+<string name="title_activity_signup">e</string>
+<string name="app_name">a</string>
+</resources>

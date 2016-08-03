@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Android XML Strings Translation Webapp</title>
+	</head>
+
+	<body>
+		<form action="/translate/make/" method="post">
+			{% csrf_token %}
+			<table>
+				<tr> 
+					<th> Index </th>
+					<th> Text </th>
+					<th> Translation </th>
+				</tr>
+		       	{% for key, value in strings.items %}
+			    <tr>
+			        <td>{{key}}</td>
+			        <td>{{value}}</td>
+			        <td><input type="text" name="__{{key}}" required />
+			    </tr>
+			    {% endfor %}
+		    </table>
+		    <input type="submit" value="Submit" />
+	    </form>
+	</body>
+</html>
